@@ -2,9 +2,9 @@ import React from 'react';
 
 
 const Header = () => (
-    <div>
-      App Running!
-    </div>
+    <header className="header">
+      <div className="logo">sd</div>
+    </header>
 );
 
 export default Header;
