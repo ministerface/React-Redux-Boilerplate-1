@@ -1,9 +1,13 @@
 import React from 'react';
+import NavBar from '../NavBar';
+import LeftNavBar from '../LeftNavBar';
 
 
 const Header = () => (
     <header className="header">
-      <div className="logo">sd</div>
+      <div className="logo"><i className="material-icons">&#xE0BC;</i></div>
+      <NavBar />
+      <LeftNavBar />
     </header>
 );
 

@@ -1,0 +1,53 @@
+.nav-bar {
+    > .list {
+        margin: 0;
+        padding: 0;
+    }
+    > .list > .item {
+        display: inline-block;
+        padding: 0 40px;
+        line-height: 70px;
+        color: #767f83;
+        position: relative;
+    }
+    > .list > .item:after {
+        content: "";
+        position: absolute;
+        width: 2px;
+        height: 18px;
+        background: #465157;
+        right: 0;
+        line-height: 70px;
+        top: 26px;
+    }
+    > .list > .item:last-child:after {
+        display: none;
+    }
+    > .list > .item.-active > span {
+        color: #ffffff;
+        border-bottom: 2px solid $primary-color;
+        padding-bottom: 5px;
+    }
+    > .list > .item > .nav-button {
+        padding: 10px 40px;
+        border-radius: 50px;
+        background: $secondary-color;
+        color: #fff;
+    }
+    > .list > .item > .nav-button > i {
+        vertical-align: text-top;
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    > .list > .item a:hover {
+        color: #ffffff;
+    }
+    &.-left-nav {
+        float: right;
+    }
+    &.-left-nav i {
+        font-size: 20px;
+        line-height: 70px;
+    }
+    display: inline-block;
+}

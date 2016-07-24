@@ -1,9 +1,13 @@
 .header {
   > .logo {
-    background-color: #45a7b9;
-    height: 100%;
+    background-color: $primary-color;
     padding: 0 40px;
     display: inline-block;
+    line-height: 70px;
+    color: #ffffff;
+  }
+  > .logo > i {
+    vertical-align: middle;
   }
 
   height: 70px;
