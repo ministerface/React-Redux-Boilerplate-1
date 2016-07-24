@@ -5,7 +5,6 @@ import {connect} from 'react-redux';
 
 class TaskNavBar extends Component {
 
-
     render() {
         return (
             <div className="task-bar">

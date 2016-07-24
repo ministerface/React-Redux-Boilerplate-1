@@ -1,8 +1,9 @@
 import React from 'react';
+import Tasks from '../../containers/Tasks';
 
 const Main = () => (
     <main className="main-content">
-      content
+      <Tasks />
     </main>
 );
 
